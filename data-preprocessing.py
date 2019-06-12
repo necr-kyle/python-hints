@@ -7,11 +7,15 @@ model.fit(XTraining,YTraining,batch_size=batchSize,epochs=amountOfEpochs,validat
 
 # If the dataset is not standard dataset for classification, the method above may throw exceptions. 
 # We can use another one, shuffle and split.
-
-from numpy.random import shuffle
-a = ['Spears', "Adele", "NDubz", "Nicole", "Cristina"]
-b = [1,2,3,4,5]
-z = zip(a, b)
-# => [('Spears', 1), ('Adele', 2), ('NDubz', 3), ('Nicole', 4), ('Cristina', 5)]
-shuffle(z)
-a, b = zip(*z)
+from sklearn.utils import shuffle
+def get_train_valid(X, Y, validation_split=0.2):
+    if validation_split >= 1 or validation_split <= 0:
+        raise Exception()
+    X, Y = shuffle(X, Y)
+    train_len = int(len(X)*(1-validation_split))
+    train_X = X[:train_len]
+    train_Y = Y[:train_len]
+    valid_X = X[train_len:]
+    valid_Y = Y[train_len:]
+    return train_X, train_Y, valid_X, valid_Y
+# omit the rest of codes
