@@ -6,3 +6,7 @@ Wanna:
 - [Print exception info in try-except-finally?](https://github.com/necr-kyle/python-hints/blob/master/exceptions.py)
 - [Use another GPU?](https://github.com/necr-kyle/python-hints/blob/master/about-gpu.py)
 - [Quickly divide dataset into train and dev?](https://github.com/necr-kyle/python-hints/blob/master/data-preprocessing.py)
+
+Wheels of:
+- [Calculating precision score](https://github.com/necr-kyle/python-hints/blob/master/model-eval.py)
+- [Some useful functions of keras](https://github.com/necr-kyle/python-hints/blob/master/keras.py)
