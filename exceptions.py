@@ -1,3 +1,5 @@
+# Wanna print exception info in try-except? Try this:
+import traceback
 try:
     print(1/0)
 except Exception as e:
