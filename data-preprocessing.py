@@ -19,3 +19,9 @@ def get_train_valid(X, Y, validation_split=0.2):
     valid_Y = Y[train_len:]
     return train_X, train_Y, valid_X, valid_Y
 # omit the rest of codes
+
+# Split sentences into tokens
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+my_sent = "Hi man, how have you been?"
+tokens = word_tokenize(my_sent)
