@@ -9,5 +9,5 @@ for file in list(os.listdir(directory))[start:end]:
         print(file)
     elif os.path.isdir(route):
         print(file, 'dir')
-    elss:
+    else:
         pritn(file, 'other file')
