@@ -10,4 +10,4 @@ for file in list(os.listdir(directory))[start:end]:
     elif os.path.isdir(route):
         print(file, 'dir')
     else:
-        pritn(file, 'other file')
+        print(file, 'other file')
