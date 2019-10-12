@@ -1,8 +1,12 @@
 # python-hints
-If you find yourself facing the same questions all the time and hard to recall the solutions, then store them as soon as you find them.
+Facing the same questions all the time and hard to recall the solutions?
+Documentations are too long to find useful functions?
+
+Then welcome to **python-hints**, a tiny database focusing on most useful methods.
 
 Python Utils:
 - [Parser: package argparse](https://github.com/necr-kyle/python-hints/blob/master/example-parser.py)
+- [Logging: package logging](https://github.com/necr-kyle/python-hints/blob/master/example-logging.py)
 - [Go through all files under a directory?](https://github.com/necr-kyle/python-hints/blob/master/file-io.py)
 - [Print exception info in try-except-finally?](https://github.com/necr-kyle/python-hints/blob/master/exceptions.py)
 
