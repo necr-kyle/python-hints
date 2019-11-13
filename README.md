@@ -4,6 +4,10 @@ Documentations are too long to find useful functions?
 
 Then welcome to **python-hints**, a tiny database focusing on most useful methods.
 
+PyTorch Utils:
+(ATTNETION) always use torch.tensor instead of torch.Tensor, automatically matching types.
+- [Tensor as index](https://github.com/necr-kyle/python-hints/blob/master/tensor-as-index.py)
+
 Python Utils:
 - [Parser: package argparse](https://github.com/necr-kyle/python-hints/blob/master/example-parser.py)
 - [Logging: package logging](https://github.com/necr-kyle/python-hints/blob/master/example-logging.py)
