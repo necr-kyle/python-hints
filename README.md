@@ -1,9 +1,13 @@
 # python-hints
 Facing the same questions all the time and hard to recall the solutions?
+
 Documentations are too long to find useful functions?
+
 I JUST WANT A LINE OF CODE I CAN USE! NO MORE BULLSHIT!
 
-Then welcome to **python-hints**, a blog focusing on most useful methods.
+(In decent words: details later, solutions now)
+
+**Then welcome to python-hints, a blog focusing on most useful methods.**
 
 ## PyTorch Utils:
 (ATTNETION) always use torch.tensor instead of torch.Tensor, automatically matching types.
