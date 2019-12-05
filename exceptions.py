@@ -1,4 +1,4 @@
-# Wanna print exception info in try-except? Try this:
+# print exception info in try-except
 import traceback
 try:
     print(1/0)

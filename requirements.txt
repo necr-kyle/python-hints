@@ -1,0 +1,10 @@
+tensorflow==2.0.0
+transformers==2.1.1
+pytorch==1.2.0
+redis==3.3.11
+django==2.2.5
+sklearn==0.21.2
+keras==2.3.1
+git+https://www.github.com/keras-team/keras-contrib.git
+jieba
+matplotlib
