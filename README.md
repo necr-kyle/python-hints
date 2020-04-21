@@ -19,6 +19,7 @@ I JUST WANT A LINE OF CODE I CAN USE! NO MORE BULLSHIT!
 - [Go through all files under a directory?](https://github.com/necr-kyle/python-hints/blob/master/file-io.py)
 - [Print exception info in try-except-finally?](https://github.com/necr-kyle/python-hints/blob/master/exceptions.py)
 - [Load comma split .csv files? ](https://github.com/necr-kyle/python-hints/blob/master/read-csv.py)
+- [Printing unicode gets exceptions](https://github.com/necr-kyle/python-hints/blob/master/unicode-print.py)
 
 ## Text Preprocessing:
 - [English text split into sentences](https://github.com/necr-kyle/python-hints/blob/master/split-sentence.py)
