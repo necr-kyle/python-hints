@@ -1,3 +1,4 @@
+# https://stackoverflow.com/questions/845058/how-to-get-line-count-of-a-large-file-cheaply-in-python
 from itertools import (takewhile,repeat)
 def rawincount(filename):
     f = open(filename, 'rb')
