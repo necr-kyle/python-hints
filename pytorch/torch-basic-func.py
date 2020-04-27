@@ -3,6 +3,8 @@ import time
 
 def intro():
     a = torch.arange(24).view(2,3,4)
+    # tensor.items() turns an 0-d tensor to a Python built-in type (int, float)
+    print(a[0,1,2].items()]
     # Note that "view" doesn't change how the tensor is stored, only change how it is used.
     # tensor.view(*args)     view tensor in shape [*args] following the stored order
     print(a.view(3,4,2))
