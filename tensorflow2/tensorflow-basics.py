@@ -12,6 +12,8 @@ if __name__ == "__main__":
     print(a.shape, a)
     a = tf.expand_dims(a, axis=0)
     print(a.shape, a)
-    
     a = tf.concat((a,a), axis=0)
     print(a.shape, a)
+    
+    b = tf.convert_to_tensor([3])
+    print(float(b.numpy()))
