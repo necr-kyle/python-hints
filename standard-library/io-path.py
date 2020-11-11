@@ -5,12 +5,12 @@ start = None
 end = None
 for filename in list(os.listdir(directory))[start:end]:
     route = os.path.join(directory, filename)
-    if file.endswith(".txt"): 
-        print(file)
+    if filename.endswith(".txt"): 
+        print(filename)
     elif os.path.isdir(route):
-        print(file, 'dir')
+        print(filename, 'dir')
     else:
-        print(file, 'other file')
+        print(filename, 'other file')
 
 # the directory of the script being run:
 import os
